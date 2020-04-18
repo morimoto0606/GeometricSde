@@ -9,7 +9,6 @@ namespace sde
 template <typename Derived>
 class RungeKutta {
 public:
-
     virtual ~RungeKutta() = default;
     virtual std::unique_ptr<RungeKutta<Derived>> clone() const = 0;
 
