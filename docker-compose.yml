@@ -1,8 +1,0 @@
-version: '3.3'
-services:
-  dev:
-    build: .
-    volumes:
-      - type: bind
-        source: ./source
-        target: /root/dev/source
